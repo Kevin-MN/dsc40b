@@ -6,6 +6,7 @@ def assign_good_and_evil(graph):
     return  full_bfs(graph)
 
 
+
 def full_bfs(graph):
     status = {node: 'undiscovered' for node in graph.nodes}
 
